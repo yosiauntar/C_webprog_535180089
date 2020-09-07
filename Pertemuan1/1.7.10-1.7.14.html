@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+     
+     <body>
+		<h1>Form</h1>
+		
+		<form action="prosess.php">
+		<button><img src="HiddenEachGrison-size_restricted.gif" alt="add" width="10" height="10" />Add</button>
+		<input type="hidden" name="bookmark"value="lyrics" />
+		
+		<br />
+		
+		<label>Umur: <input type="text" name="age" /></label>
+		<br />
+		Jenis kelamin:
+		<input id="perempuan" type="radio" name="gender" value="f">
+		<label for="perempuan">Perempuan</label>
+		<input id="pria" type="radio" name="gender" value="m">
+		<label for="pria">Pria</label>
+		
+		<br />
+		
+		<fieldset>
+		<legend>Detail Kontak</legend>
+		<label>Email:<br />
+			<input type="text" name="email" /></label><br />
+		<label>No HP:<br />
+			<input type="text" name="mobile" /></label><br />
+		</fieldset>
+		
+		<br />
+		
+		<label for="username">Username:</label>
+		<input type="text" name="username" required="required" /></title><br />
+		<label for="password">Password:</label>
+		<input type="password" name="password" required="required" />
+		<input type="submit" value="Submit" />
+		
+		<br />
+		
+		<label for="depart">Tanggal Keberangkatan:</label>
+		<input type="date" name="depart" /><br><br>
+		
+		<label for="email">Email:</label>
+		<input type="email" name="email" /><br><br>
+		
+		<label for="website">Website:</label>
+		<input type="url" name="website" /><br><br>
+		
+		<input type="submit" value="Submit" />
+		</form>
+     </body>
+</html>
