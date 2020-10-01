@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+     <head>
+          <meta charset="utf-8">
+          <title>1.7</title>
+     </head>
+     <body>
+          <h1>Form</h1>
+		  <form action="prosess.php">
+			<p>
+				<label>Username:</label>
+				<input type="text" name="username" maxlength="30" />
+			</p>
+			<p>
+				<label>Password:</label>
+				<input type="password" name="password" />
+			</p>
+			
+			<p>Bagaimana Pendapat kamu tentang EVOS?</p>
+			<textarea name="comments" cols="20" rows="4" placeholder="Enter your comments..."></textarea>
+			
+			<p>Pilih proplayer favoritmu:
+			<br />
+			<input type="radio" name="nama" value="jessnolimit" checked="checked" /> JessNoLimit
+			<input type="radio" name="nama" value="oura" /> Oura
+			</p>
+			
+			<p>Role favorit:
+			<br />
+			<input type="checkbox" name="role" value="mid" checked="checked" /> Midlaner
+			<input type="checkbox" name="role" value="offlaner" /> Offlaner
+			</p>
+			
+			<p>HP yang digunakan?</p>
+			<select name="devices">
+				<option value="iphone">Iphone</option>
+				<option value="android">Android</option>
+			</select>
+			
+			<p>Caster favorit?</p>
+			<select name="caster" size="3" multiple="multiple">
+			<option value="rangeremas" selected="selected">Ranger Emas</option>
+			<option value="kornet">Kornet</option>
+			<option value="kbggwp" selected="selected">KB</option>
+			<option value="bude">Clara Mongstar</option>
+			</select>
+			
+			<p>Upload your image</p>
+			<input type="file" name="user-face" /><br />
+			<input type="submit" value="Upload" />
+			
+			<p>Subscribe list email kita</p>
+			<input type="text" name="email" />
+			<input type="submit" name="subscribe" value="Subscribe" />
+			<br />
+			<input type="image" src="subscribe.jpg" width="100" height="20" />
+
+		  </form>
+     </body>
+</html>
